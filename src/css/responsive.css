@@ -1,0 +1,51 @@
+/* ========Here is Responsive for large device (768px to 992px)======== */
+@media screen and (max-width:992px){
+    /* ___Here is header section___ */
+    h1{
+        font-size: 4.5rem;
+    }
+    header .banner {
+        min-height: auto;
+    }
+    header .banner-content {
+        width: 70%;
+    }
+    header .banner-description {
+        width: 100%;
+    }
+}
+/* ===========Here is Responsive for medium device (576px to 768px)=========== */
+@media screen and (max-width:768px){
+        /* _____Here is header section_____ */
+    header nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    header .banner {
+        flex-direction: column-reverse;
+        gap:10rem;
+    }
+    header .banner-content {
+        width: 90%;
+    }
+}
+/* ========Here is Responsive for small device (360px to 576px)======== */
+@media screen and (max-width:576px){
+    /* _______Here is header section_____ */
+    h1{
+        font-size:3rem;
+    }
+    header nav>ul {
+        gap: 1.2rem;
+    }
+    header .banner{
+        padding-top:0;
+        gap:5rem;
+    }
+    header .banner-content {
+        width: 100%;
+        text-align: center;
+    }
+}
